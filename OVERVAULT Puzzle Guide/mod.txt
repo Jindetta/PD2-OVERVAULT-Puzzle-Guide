@@ -1,0 +1,28 @@
+{
+    "name" : "OVERVAULT Puzzle Guide",
+    "description" : "Guidance contours for FWB: OVERVAULT puzzle.",
+    "author" : "Jindetta",
+    "version" : 1.0,
+    "hooks" : [
+        {
+            "hook_id" : "lib/setups/setup",
+            "script_path" : "main.lua"
+        },
+        {
+            "hook_id" : "lib/units/interactions/interactionext",
+            "script_path" : "main.lua"
+        },
+        {
+            "hook_id" : "lib/tweak_data/interactiontweakdata",
+            "script_path" : "main.lua"
+        }
+    ],
+    "updates" : [
+        {
+            "identifier" : "OVPG-by-Jindetta",
+            "host" : {
+                "meta" : "https://raw.githubusercontent.com/Jindetta/PD2-OVERVAULT-Puzzle-Guide/master/meta.json"
+            }
+        }
+    ]
+}
