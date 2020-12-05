@@ -15,13 +15,12 @@ if Global.level_data and Global.level_data.level_id == "red2" then
         Hooks:PostHook(InteractionTweakData, "init", "OVPG_InteractionTweakData", function(self)
             self.correct_cube = table.map_copy(self.s_cube)
             self.correct_cube.contour = "correct_cube"
-            self.correct_cube.start_active = true
         end)
     else
         Hooks:PostHook(Setup, "init_finalize", "OVPG_Setup", function()
             tweak_data.contour.correct_cube = {
-                standard_color = Vector3(0.1, 0.5, 1),
-                selected_color = Vector3(0, 1, 1)
+                standard_color = Vector3(0.1, 0.3, 1),
+                selected_color = Vector3(0, 1, 0)
             }
         end)
     end
