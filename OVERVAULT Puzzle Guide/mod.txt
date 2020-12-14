@@ -2,7 +2,7 @@
     "name" : "OVERVAULT Puzzle Guide",
     "description" : "Guidance contours for FWB: OVERVAULT puzzle.",
     "author" : "Jindetta",
-    "version" : 1.0,
+    "version" : 1.02,
     "hooks" : [
         {
             "hook_id" : "lib/setups/setup",
